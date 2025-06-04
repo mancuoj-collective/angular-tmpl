@@ -1,6 +1,6 @@
 import { Component } from '@angular/core'
 import { RouterOutlet } from '@angular/router'
-import { ThemeToggleComponent } from './components/theme-toggle.component'
+import { ThemeToggleComponent } from './components/theme-toggle'
 
 @Component({
   selector: 'app-root',
