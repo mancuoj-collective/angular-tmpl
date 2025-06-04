@@ -3,6 +3,10 @@
 @import '@fontsource-variable/lora';
 @import '@fontsource-variable/jetbrains-mono';
 
+@plugin "@iconify/tailwind4" {
+  prefixes: carbon;
+}
+
 @plugin "daisyui" {
   themes: light --default, dark --prefersdark;
 }
