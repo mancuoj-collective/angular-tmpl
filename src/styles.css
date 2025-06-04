@@ -1,1 +1,14 @@
 @import 'tailwindcss';
+@import '@fontsource-variable/dm-sans';
+@import '@fontsource-variable/lora';
+@import '@fontsource-variable/jetbrains-mono';
+
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark;
+}
+
+@theme inline {
+  --font-sans: 'DM Sans Variable', sans-serif;
+  --font-serif: 'Lora Variable', serif;
+  --font-mono: 'JetBrains Mono Variable', monospace;
+}
