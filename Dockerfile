@@ -2,6 +2,7 @@ FROM node:22-alpine AS base
 WORKDIR /app
 ENV NODE_ENV="production"
 RUN npm install -g pnpm
+RUN npm install -g @angular/cli
 
 FROM base AS build
 COPY package.json pnpm-lock.yaml ./
