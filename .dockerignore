@@ -1,8 +1,0 @@
-.DS_Store
-.cursor
-.angular
-.vscode
-dist
-build
-node_modules
-README.md
