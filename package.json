@@ -7,12 +7,14 @@
     "lint": "ng lint"
   },
   "dependencies": {
+    "@angular/cdk": "^19.0.0",
     "@angular/common": "^20.0.2",
     "@angular/compiler": "^20.0.2",
     "@angular/core": "^20.0.2",
     "@angular/forms": "^20.0.2",
     "@angular/platform-browser": "^20.0.2",
     "@angular/router": "^20.0.2",
+    "@floating-ui/dom": "^1.6.0",
     "@fontsource-variable/dm-sans": "^5.2.6",
     "@fontsource-variable/jetbrains-mono": "^5.2.6",
     "@fontsource-variable/lora": "^5.2.6",
@@ -20,6 +22,7 @@
     "@iconify/tailwind4": "^1.0.6",
     "@tailwindcss/postcss": "^4.1.8",
     "daisyui": "^5.0.43",
+    "ng-primitives": "0.50.0",
     "postcss": "^8.5.4",
     "rxjs": "~7.8.2",
     "tailwindcss": "^4.1.8",
