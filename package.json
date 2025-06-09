@@ -7,14 +7,14 @@
     "lint": "ng lint"
   },
   "dependencies": {
-    "@angular/cdk": "^19.0.0",
+    "@angular/cdk": "^20.0.2",
     "@angular/common": "^20.0.2",
     "@angular/compiler": "^20.0.2",
     "@angular/core": "^20.0.2",
     "@angular/forms": "^20.0.2",
     "@angular/platform-browser": "^20.0.2",
     "@angular/router": "^20.0.2",
-    "@floating-ui/dom": "^1.6.0",
+    "@floating-ui/dom": "^1.7.1",
     "@fontsource-variable/dm-sans": "^5.2.6",
     "@fontsource-variable/jetbrains-mono": "^5.2.6",
     "@fontsource-variable/lora": "^5.2.6",
