@@ -1,11 +1,18 @@
 import { Component } from '@angular/core'
+import { ButtonModule } from 'primeng/button'
 
 @Component({
   selector: 'app-github-link',
   standalone: true,
+  imports: [ButtonModule],
   template: `
-    <a class="btn btn-primary" href="https://github.com/mancuoj-collective/angular-tmpl">
-      <span class="iconify carbon--logo-github size-4"></span>
+    <a
+      href="https://github.com/mancuoj-collective/angular-tmpl"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="p-button"
+    >
+      <span class="iconify carbon--logo-github size-5"></span>
       GitHub
     </a>
   `,

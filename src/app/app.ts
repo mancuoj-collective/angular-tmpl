@@ -9,7 +9,7 @@ import { GithubLinkComponent } from '@/components/github-link'
   template: `
     <div class="relative font-sans antialiased">
       <div class="flex flex-col items-center justify-center h-svh">
-        <div class="flex gap-5 items-center">
+        <div class="flex gap-3 items-center">
           <app-github-link />
           <app-theme-toggle />
         </div>
