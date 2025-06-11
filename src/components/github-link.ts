@@ -12,7 +12,7 @@ import { ButtonModule } from 'primeng/button'
       rel="noopener noreferrer"
       class="p-button"
     >
-      <span class="iconify carbon--logo-github size-5"></span>
+      <span class="pi pi-github"></span>
       GitHub
     </a>
   `,

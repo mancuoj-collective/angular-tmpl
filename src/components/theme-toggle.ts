@@ -9,11 +9,11 @@ const STORAGE_KEY = 'angular-tmpl-theme'
   imports: [ButtonModule],
   template: `
     <p-button
-      [icon]="isDark() ? 'iconify carbon--sun size-5' : 'iconify carbon--moon size-5'"
-      ariaLabel="Toggle theme"
+      [icon]="isDark() ? 'pi pi-sun' : 'pi pi-moon'"
       (click)="toggle()"
       rounded="true"
       text="true"
+      ariaLabel="Toggle theme"
     />
   `,
 })
@@ -31,5 +31,7 @@ export class ThemeToggleComponent {
     })
   }
 
-  toggle = () => this.theme.set(this.isDark() ? 'light' : 'dark')
+  toggle() {
+    this.theme.set(this.isDark() ? 'light' : 'dark')
+  }
 }

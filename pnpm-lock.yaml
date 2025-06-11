@@ -32,9 +32,6 @@ importers:
       '@angular/router':
         specifier: ^20.0.2
         version: 20.0.2(@angular/common@20.0.2(@angular/core@20.0.2(@angular/compiler@20.0.2)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.0.2(@angular/compiler@20.0.2)(rxjs@7.8.2)(zone.js@0.15.1))(@angular/platform-browser@20.0.2(@angular/animations@20.0.2(@angular/common@20.0.2(@angular/core@20.0.2(@angular/compiler@20.0.2)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.0.2(@angular/compiler@20.0.2)(rxjs@7.8.2)(zone.js@0.15.1)))(@angular/common@20.0.2(@angular/core@20.0.2(@angular/compiler@20.0.2)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.0.2(@angular/compiler@20.0.2)(rxjs@7.8.2)(zone.js@0.15.1)))(rxjs@7.8.2)
-      '@floating-ui/dom':
-        specifier: ^1.7.1
-        version: 1.7.1
       '@fontsource-variable/dm-sans':
         specifier: ^5.2.6
         version: 5.2.6
@@ -56,12 +53,12 @@ importers:
       '@tailwindcss/postcss':
         specifier: ^4.1.8
         version: 4.1.8
-      ng-primitives:
-        specifier: 0.50.0
-        version: 0.50.0(6c272c3bb90b48fbff3cc3b45142be6e)
       postcss:
         specifier: ^8.5.4
         version: 8.5.4
+      primeicons:
+        specifier: ^7.0.0
+        version: 7.0.0
       primeng:
         specifier: ^19.1.3
         version: 19.1.3(633351088add3288d5c8078247c26ff3)
@@ -596,15 +593,6 @@ packages:
     resolution: {integrity: sha512-0J+zgWxHN+xXONWIyPWKFMgVuJoZuGiIFu8yxk7RJjxkzpGmyja5wRFqZIVtjDVOQpV+Rw0iOAjYPE2eQyjr0w==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@floating-ui/core@1.7.1':
-    resolution: {integrity: sha512-azI0DrjMMfIug/ExbBaeDVJXcY0a7EPvPjb2xAJPa4HeimBX+Z18HK8QQR3jb6356SnDDdxx+hinMLcJEDdOjw==}
-
-  '@floating-ui/dom@1.7.1':
-    resolution: {integrity: sha512-cwsmW/zyw5ltYTUeeYJ60CnQuPqmGwuGVhG9w0PRaRKkAyi38BT5CKrpIbb+jtahSwUl04cWzSx9ZOIxeS6RsQ==}
-
-  '@floating-ui/utils@0.2.9':
-    resolution: {integrity: sha512-MDWhGtE+eHw5JW7lq4qhc5yRLS11ERl1c7Z6Xd0a58DozHES6EnNNwUWbMiG4J9Cgj053Bhk8zvlhFYKVhULwg==}
-
   '@fontsource-variable/dm-sans@5.2.6':
     resolution: {integrity: sha512-edr+wGsc9d7/5aMB8ty1z0Zb0fqzJtBZ5+c2FhtrJwYhefcLEOL4r66EBqeyEFhVTMhCGIjhtxmigrRbPN0mUw==}
 
@@ -1114,11 +1102,6 @@ packages:
     resolution: {integrity: sha512-dfUnCxiN9H4ap84DvD2ubjw+3vUNpstxa0TneY/Paat8a3R4uQZDLSvWjmznAY/DoahqTHl9V46HF/Zs3F29pg==}
     engines: {node: '>= 10.0.0'}
 
-  '@phenomnomnominal/tsquery@6.1.3':
-    resolution: {integrity: sha512-CEqpJ872StsxRmwv9ePCZ4BCisrJSlREUC5XxIRYxhvODt4aQoJFFmjTgaP6meyKiiXxxN/VWPZ58j4yHXRkmw==}
-    peerDependencies:
-      typescript: ^3 || ^4 || ^5
-
   '@pkgjs/parseargs@0.11.0':
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
     engines: {node: '>=14'}
@@ -1363,9 +1346,6 @@ packages:
 
   '@types/cors@2.8.18':
     resolution: {integrity: sha512-nX3d0sxJW41CqQvfOzVG1NCTXfFDrDWIghCZncpHeWlVFd81zxB/DLhg7avFg6eHLCRX7ckBmoIIcqa++upvJA==}
-
-  '@types/esquery@1.5.4':
-    resolution: {integrity: sha512-yYO4Q8H+KJHKW1rEeSzHxcZi90durqYgWVfnh5K6ZADVBjBv2e1NEveYX5yT2bffgN7RqzH3k9930m+i2yBoMA==}
 
   '@types/estree@1.0.7':
     resolution: {integrity: sha512-w28IoSUCJpidD/TGviZwwMJckNESJZXFu7NBZ5YJ4mEUnNraUn9Pm8HSZm/jDF1pDWYKspWE7oVphigUPRakIQ==}
@@ -2581,20 +2561,6 @@ packages:
     resolution: {integrity: sha512-8Ofs/AUQh8MaEcrlq5xOX0CQ9ypTF5dl78mjlMNfOK08fzpgTHQRQPBxcPlEtIw0yRpws+Zo/3r+5WRby7u3Gg==}
     engines: {node: '>= 0.6'}
 
-  ng-primitives@0.50.0:
-    resolution: {integrity: sha512-kOr5BcX9N81WOUNPvYANc2DWVNEIgVCpAhM4aMskLprmJpsIifIwZYtpYFY/ZBeY1cmWQ/XHnoIm7LhYN2eMYQ==}
-    peerDependencies:
-      '@angular/cdk': '>=19.0.0'
-      '@angular/common': '>=19.0.0'
-      '@angular/core': '>=19.0.0'
-      '@angular/forms': '>=19.0.0'
-      '@floating-ui/dom': '>=1.6.0'
-      luxon: '*'
-      rxjs: '>=6.6.0'
-    peerDependenciesMeta:
-      luxon:
-        optional: true
-
   node-addon-api@6.1.0:
     resolution: {integrity: sha512-+eawOlIgy680F0kBzPUNFhMZGtJ1YmqM6l4+Crf4IkImjYrO/mqPwRMh352g23uIaQKFItcQ64I7KMaJxHgAVA==}
 
@@ -2792,6 +2758,9 @@ packages:
   prelude-ls@1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
+
+  primeicons@7.0.0:
+    resolution: {integrity: sha512-jK3Et9UzwzTsd6tzl2RmwrVY/b8raJ3QZLzoDACj+oTJ0oX7L9Hy+XnVwgo4QVKlKpnP/Ur13SXV/pVh4LzaDw==}
 
   primeng@19.1.3:
     resolution: {integrity: sha512-KsrvJFblKg28kA6d4npnnABjKClmJv0CgDT/kOxFq5onQNBy4547DJzRGMba4+CMLKjHWWkYWuC+XSkPMNFrZg==}
@@ -3916,17 +3885,6 @@ snapshots:
       '@eslint/core': 0.14.0
       levn: 0.4.1
 
-  '@floating-ui/core@1.7.1':
-    dependencies:
-      '@floating-ui/utils': 0.2.9
-
-  '@floating-ui/dom@1.7.1':
-    dependencies:
-      '@floating-ui/core': 1.7.1
-      '@floating-ui/utils': 0.2.9
-
-  '@floating-ui/utils@0.2.9': {}
-
   '@fontsource-variable/dm-sans@5.2.6': {}
 
   '@fontsource-variable/jetbrains-mono@5.2.6': {}
@@ -4376,12 +4334,6 @@ snapshots:
       '@parcel/watcher-win32-x64': 2.5.1
     optional: true
 
-  '@phenomnomnominal/tsquery@6.1.3(typescript@5.8.3)':
-    dependencies:
-      '@types/esquery': 1.5.4
-      esquery: 1.6.0
-      typescript: 5.8.3
-
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
@@ -4581,10 +4533,6 @@ snapshots:
     dependencies:
       '@types/node': 22.15.29
     optional: true
-
-  '@types/esquery@1.5.4':
-    dependencies:
-      '@types/estree': 1.0.7
 
   '@types/estree@1.0.7': {}
 
@@ -5954,19 +5902,6 @@ snapshots:
 
   negotiator@1.0.0: {}
 
-  ng-primitives@0.50.0(6c272c3bb90b48fbff3cc3b45142be6e):
-    dependencies:
-      '@angular/cdk': 20.0.2(@angular/common@20.0.2(@angular/core@20.0.2(@angular/compiler@20.0.2)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.0.2(@angular/compiler@20.0.2)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2)
-      '@angular/common': 20.0.2(@angular/core@20.0.2(@angular/compiler@20.0.2)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2)
-      '@angular/core': 20.0.2(@angular/compiler@20.0.2)(rxjs@7.8.2)(zone.js@0.15.1)
-      '@angular/forms': 20.0.2(@angular/common@20.0.2(@angular/core@20.0.2(@angular/compiler@20.0.2)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.0.2(@angular/compiler@20.0.2)(rxjs@7.8.2)(zone.js@0.15.1))(@angular/platform-browser@20.0.2(@angular/animations@20.0.2(@angular/common@20.0.2(@angular/core@20.0.2(@angular/compiler@20.0.2)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.0.2(@angular/compiler@20.0.2)(rxjs@7.8.2)(zone.js@0.15.1)))(@angular/common@20.0.2(@angular/core@20.0.2(@angular/compiler@20.0.2)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.0.2(@angular/compiler@20.0.2)(rxjs@7.8.2)(zone.js@0.15.1)))(rxjs@7.8.2)
-      '@floating-ui/dom': 1.7.1
-      '@phenomnomnominal/tsquery': 6.1.3(typescript@5.8.3)
-      rxjs: 7.8.2
-      tslib: 2.8.1
-    transitivePeerDependencies:
-      - typescript
-
   node-addon-api@6.1.0:
     optional: true
 
@@ -6218,6 +6153,8 @@ snapshots:
       source-map-js: 1.2.1
 
   prelude-ls@1.2.1: {}
+
+  primeicons@7.0.0: {}
 
   primeng@19.1.3(633351088add3288d5c8078247c26ff3):
     dependencies:
